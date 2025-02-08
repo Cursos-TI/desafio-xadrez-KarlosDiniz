@@ -66,5 +66,33 @@ int main() {
         printf("Esquerda\n");
     }
     printf("\n"); // apenas para dar uma espaço de linha a mais no final
+    
+    //Iniciando o código do Desafio Xadrez - Nivel Aventureiro - Movimentação das peças:
+    // - **Movimentação do Cavalo:**
+    // Mover o cavalo em L utilizando loops aninhados.
+    // Obs: É obrigatório o uso de loops aninhados.  
+    // Para o desafio, moveremos o cavalo, que possui sua movimentação em L. 
+    // O cavalo deve se movimentar para baixo e para a esquerda, 
+    // usando pelo menos duas estruturas de repetição: 
+    // uma deve ser for e a outra pode ser while ou do-while.
+    
+    // movimento do Cavalo, dois para baixo e um para esquerda
+
+    esquerda = 1;
+
+    printf("\nIniciando a movimentação do Cavalo: 2 casas para baixo e 1 para esquerda:\n");
+
+    for(int baixo = 1; baixo <= 2; baixo++){
+
+        while (baixo <= 2)
+        {
+            printf("Movimento do Cavalo para %dª casa para baixo\n", baixo);
+            printf("Baixo\n");
+            baixo++;
+        }
+        printf("Movimento do Cavalo para %dª casa para esquerda\n", esquerda);
+        printf("Esquerda\n");
+    }
+
     return 0;
 }
